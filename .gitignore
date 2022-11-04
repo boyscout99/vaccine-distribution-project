@@ -1,0 +1,5 @@
+venv-vaccine/
+code/test_postgresql_conn.py
+venv/
+code/credentials.json
+.idea
