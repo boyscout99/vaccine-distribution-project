@@ -1,3 +1,5 @@
+# Vaccine Distribution Project with PostgreSQL database
+Authors:  Bin Choi, Karina Mina, Phuong Hoang, Tommaso Praturlon
 ## How to work with git
 
 Here's a list of recommended next steps to make it easy for you to get started with the project. However, understanding the concept of git workflow and git fork is necessary and essential. 
