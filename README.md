@@ -1,4 +1,4 @@
-# Vaccine Distribution Project with PostgreSQL database
+# Modelling Vaccine Distribution in Finland with PostgreSQL database
 Authors:  Bin Choi, Karina Mina, Phuong Hoang, Tommaso Praturlon
 ## How to work with git
 
