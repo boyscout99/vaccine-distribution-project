@@ -2,6 +2,9 @@
 Authors:  Bin Choi, Karina Mina, Phuong Hoang, Tommaso Praturlon
 
 In this group project, we modelled a vaccine distribution system in Finland with the use of a relational database implemented in PostgreSQL. We used Python to connect to the database with SQLAlchemy, manipulate dataframes with pandas and queried the database to obtain information.
+You can find [here](report/vaccine_distribution_databases_g9.pdf) the full report of our work with the relational database.
+
+![schema](report/final_db_schema.PNG)
 
 ## How to work with virtual environment
 **MacOS/Linux - Method 1**
