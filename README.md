@@ -1,21 +1,7 @@
 # Modelling Vaccine Distribution in Finland with PostgreSQL database
 Authors:  Bin Choi, Karina Mina, Phuong Hoang, Tommaso Praturlon
-## How to work with git
 
-Here's a list of recommended next steps to make it easy for you to get started with the project. However, understanding the concept of git workflow and git fork is necessary and essential. 
-
--   [Create a fork of this official repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#creating-a-fork)
--   [Add a SSH key to your gitlab account](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
--   Clone the fork to your local repository
-```
-git clone git@version.aalto.fi<your-teammate-name>/<project-repo-name>.git
-```
--   [Add a remote to keep your fork synced with the official repository](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#repository-mirroring)
-```
-git remote add upstream git@version.aalto.fi:cs-a1153_databases_projects/project-vaccine-distribution.git
-git pull upstream main                                  # if the official repository is updated you must pull the upstream
-git push origin main                                    # Update your public repository
-```
+In this group project, we modelled a vaccine distribution system in Finland with the use of a relational database implemented in PostgreSQL. We used Python to connect to the database with SQLAlchemy, manipulate dataframes with pandas and queried the database to obtain information.
 
 ## How to work with virtual environment
 **MacOS/Linux - Method 1**
@@ -48,32 +34,6 @@ You can deactivate the virtual environment with this command.
 ```
 deactivate
 ```
-
-## File structure
-This section explains the recommended file structure for the project
-
-    .project-vaccine-distribution
-    ├── code                              # code base (python & sql files)
-    │   ├── requirements.txt              # IMPORTANT: see NOTES below
-    │   ├── test_postgresql_conn.py       # Example code to test connection with postgres server
-    │   ├── ....py                        # python file for part III
-    ├── data                              # contain the sample data for Vaccine Distribution projects
-    │   ├── sampleData.xls                # sample data as an excel file
-    ├── database                          # IMPORTANT: see NOTES below
-    │   ├── database.db                   # final version of the project database
-    ├── venv                              # path to venv should be added to .gitignore
-    │   ├── bin
-    │   │   ├── activate
-    │   │   ├── ....
-    │   ├── ....
-    ├── .gitignore
-    └── README.md
-
-1. **requirements.txt**
-
-    In order to keep track of Python modules and packages required by your project, we provided a ```requirements.txt``` file with some starter packages required for data preprocessing. After activating the virtual environment, you can install these packages by running ```pip install -r ./code/requirements.txt```. Please add additional packages that you install for the project to this file. 
-
-2. PostgreSQL
     
 ### Connecting to the database server
 
